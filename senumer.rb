@@ -1,17 +1,17 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Localenum < Formula
+class Senumer < Formula
   desc "convert `Localizable.strings` files, which are multilingual files used in Xcode, into enum definitions. The enum definitions is output in swift syntax."
-  homepage "https://github.com/BlueEventHorizon/Localenum"
-  url "https://github.com/BlueEventHorizon/Localenum/releases/download/1.0/localenum"
+  homepage "https://github.com/BlueEventHorizon/Senumer"
+  url "https://github.com/BlueEventHorizon/Senumer/releases/download/1.1/senumer"
   version "1.0"
-  sha256 "f16ad0eae4d2b1d89881bf6be7a6a471de78e3fe2b026204c5b7e5f66af20c40"
+  sha256 "79d4ddc2b69eb23c95d4d5699247be74a033146cad0010806e5d40c5e3a3e9ca"
 
   # depends_on "cmake" => :build
 
   def install
-     bin.install "localenum" 
+     bin.install "senumer" 
   end
 
   test do
